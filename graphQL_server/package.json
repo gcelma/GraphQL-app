@@ -1,0 +1,22 @@
+{
+  "name": "graphql_server",
+  "version": "1.0.0",
+  "description": "GraphQL server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "author": "Gerard Celma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.4.2",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/node": "^7.5.0",
+    "@babel/preset-env": "^7.5.0"
+  }
+}
